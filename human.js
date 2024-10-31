@@ -110,7 +110,7 @@ class Human {
     }
 
     get health() {
-        return `${this.hc.health}%`;
+        return this.hc.health;
     }
 
     get happiness() {
