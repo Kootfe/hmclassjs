@@ -1,13 +1,9 @@
 const { Human, HumanCore } = require('./human.js');
 
+const KftCore = new HumanCore(34, 20, 100, 20)
+KftCore.updateMood();
+KftCore.updateFeeling();
+const Koofte = new Human(KftCore);
 
-const HC = new HumanCore(34);
-
-HC.setFeeling('Happy')
-HC.setMood('Happy')
-
-const Koofte = new Human(HC);
-
-console.log(Koofte.mood)
-console.log(Koofte.emotion)
-console.log(Koofte.health)
+console.log(Koofte.mood);
+console.log(Koofte.feeling);
