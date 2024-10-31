@@ -3,6 +3,10 @@
 ## Version
 0.0.2 - Moods, Feelings, Health and Stats update. 
 
+## Documentation
+- [Changelog](CHANGELOG.md)
+- [Small Updates](SMALLUPDATES.md)
+
 ## Overview
 The `HumanCore` class simulates human moods and emotions, providing methods to manage health, moods, and feelings. This class serves as a basic framework for creating an AI representation of a human with emotional attributes. It includes methods for setting and listing moods and feelings. The `Human` class acts as a wrapper to interact with `HumanCore`, while the `DevTools` class provides a way to access both core functionalities and the human instance. This project allows you to manage health status from 0 to 100%, set and retrieve various moods and feelings, and list all existing moods and feelings. Notably, the moods and feelings are influenced by the health, happiness, sadness, and madness levels of the AI representation.
 
